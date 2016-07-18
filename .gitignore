@@ -1,0 +1,73 @@
+The HTML
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Micah Rumsey Resume</title>
+	</head>
+	<body>
+	    <div id="header">Micah Rumsey's Resume</div>
+	    <div class="left"><h3>Experience That I have</h3>
+	       <p id="numba1"> Although I have limited experience, here is what I do know:
+	       </p>
+	         <ul>
+	             <li>An Associates Degree in Criminal Justice</li>
+	             <li><em>HTML/CSS</em> Experience</li>
+	             <li>Can Drive Large Vehicles</li>
+	             <li>A Decent car Mechanic</li>
+	             <li>Am Able to Work On Computers</li>
+	         </ul>
+	    </div>
+	    <div class="right"><h3>Extra Curricular Activities</h3>
+	       <p id="numba2">I was born a preacher's kid, just a reference.
+	         <ul>
+	             <li>Worked in a Soup Kitchen Once a Month for a few years</li>
+	             <li>Mowed Grass for a Church Every Weekend for 7 Years</li>
+	             <li>Volunteered at a church for many years</li>
+	         </ul>
+	    </div>
+	    <div id="footer">425 E. Southport Rd.  46227, Indianapolis, Indiana          
+	    </div>
+	</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------------
+The CSS
+
+#header {
+    height: 20px;
+    width: 164px;
+    background-color: red;
+    border-radius: 5px;
+    border: 10px solid #1a8cff;
+    position: fixed;
+    z-index: 1;
+}
+.left {
+    height: 225px;
+    width: 300px;
+    background-color: #ff1a75;
+    border: 10px solid #cc00cc;
+    border-radius: 5px;
+    float: left;
+}
+.right {
+    height: 200px;
+    width: 300px;
+    background-color: #cc6600;
+    border: 10px solid #ffff1a;
+    border-radius: 5px;
+    float: right;
+}
+#footer {
+    height: 20px;
+    width: 350px;
+    background-color: #1aff1a;
+    border: 10px solid #ff1a1a;
+    border-radius: 5px;
+    clear: both
+}    
+h3 {
+    font-size: 20px;
+}
